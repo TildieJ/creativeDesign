@@ -1,0 +1,103 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background: #EEAECA;
+    background: radial-gradient(circle, rgba(238, 174, 202, 1) 0%, rgba(148, 187, 233, 1) 100%);
+    width: 100%;
+}
+
+h1{
+    color:#2F5249 ;
+    font-size: 7rem;
+    font-family: 'HighwayMan', sans-serif;
+    padding: 2rem;
+
+}
+
+h2{
+   font-size: 4rem; 
+   font-family: 'HighwayManClean';
+   font-style: italic;
+   width: 50rem;
+   padding: 1rem;
+}
+
+.creative{
+     background: radial-gradient(circle, rgba(63,94,251,1) 0%, rgba(252,70,107,1) 100%);
+     -webkit-background-clip: text ;
+     -webkit-text-fill-color: transparent;
+}
+
+.container{
+    display: flex;
+    text-align: left;
+    align-items: center;
+    
+}
+
+img{
+    height: 250px;
+    padding: 1rem;
+    
+}
+
+p{
+    width: 200px;
+    text-align: justify;
+}
+
+.left{
+    margin-right: 150px;
+}
+
+.note{
+    padding: 1rem;
+}
+
+h3{
+    padding-bottom: 0.5rem;
+}
+
+footer{
+    margin-top: 20px;
+    display: flex;
+    justify-content: flex-end;
+    align-items: flex-end;
+    gap: 10px;
+    height: 30px;
+    width: 100%;
+    background-color:#2F5249 ;
+    padding-right: 1rem; 
+    color: #5E686D;
+    font-weight: 700;
+}
+
+footer a{
+    color: #5E686D;
+}
+
+@media (max-width: 600px)  {
+    .container{
+          display: block;
+    }
+    .note{
+        margin-bottom: 2rem;
+    }
+    h2{
+        width: 43rem;
+    }
+}
+@font-face{
+        font-family:'highwayMan';
+        src: url('./fonts/HighwayMan_PERSONAL_USE_ONLY.otf') format('opentype');
+        
+}
+
+@font-face{
+    font-family:'HighwayManClean', sans-serif ;
+    src: url('./fonts/HighwayManClean_PERSONAL_USE_ONLY.otf') format('opentype');
+}
